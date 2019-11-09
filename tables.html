@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TABLES TAG</title>
+	<style>
+		table,th,td{
+			border: solid red;
+			border-collapse: collapse;
+		    text-align: center;
+		    padding: 10px;
+
+		}
+		#custom-table thead{
+			background-color: red;
+			color: white;
+
+		}
+	</style>
+</head>
+<body>
+     <!---SIMPLE TABLE EXAMPLE--->
+     <h2>SIMPLE TABLE:</h2>
+     <table width="100%">
+     	<thead>
+     		<tr>
+     			<th>SNO</th>
+     			<th>NAME</th>
+     			<th>ADDRESS</th>
+     		</tr>
+     	</thead>
+     	<tbody>
+     		<tr>
+     			<td>1</td>
+     			<td>RAJI</td>
+     			<td>INDIA</td>
+     		</tr>
+     		<tr>
+     			<td>2</td>
+     			<td>SAI</td>
+     			<td>INDIA</td>
+     		</tr>
+     		<tr>
+     			<td>3</td>
+     			<td>LUCK</td>
+     			<td>INDIA</td>
+     		</tr>
+     	</tbody>
+     </table>
+     <!---TABLE COL SPAN--->
+     <h2>TABLE WITH COL SPAN</h2>
+     <table width="100%">
+     	<thead>
+     		<tr>
+     			<th>SNO</th>
+     			<th colspan="2">NAME & ADDRESS</th>
+     			
+     		</tr>
+     	</thead>
+     	<tbody>
+     		<tr>
+     			<td>1</td>
+     			<td>RAJI</td>
+     			<td>INDIA</td>
+     		</tr>
+     		<tr>
+     			<td>2</td>
+     			<td>SAI</td>
+     			<td>INDIA</td>
+     		</tr>
+     		<tr>
+     			<td>3</td>
+     			<td>LUCK</td>
+     			<td>INDIA</td>
+     		</tr>
+
+     	</tbody>
+     </table>
+     <!---TABLE WITH ROW SPAN--->
+     		<h2>TABLE WITH ROW SPAN</h2>
+     		<table width="100%">
+     	<thead>
+     		<tr>
+     			<th>SNO</th>
+     			<th>NAME</th>
+     			<th>ADDRESS</th>
+     		</tr>
+     	</thead>
+     	<tbody>
+     		<tr>
+     			<td rowspan="2">1</td>
+     			<td>RAJI</td>
+     			<td>INDIA</td>
+     		</tr>
+     		<tr>
+     
+     			<td>SAI</td>
+     			<td>INDIA</td>
+     		</tr>
+     		<tr>
+     			<td>3</td>
+     			<td>LUCK</td>
+     			<td>INDIA</td>
+     		</tr>
+     	</tbody>
+     </table>
+     
+     <!---CUSTOM TABLE--->
+     <h2>CUSTOM TABLE</h2>
+     <table width="100%" id="custom-table">
+     	<thead>
+     		<tr>
+     			<th>SNO</th>
+     			<th>NAME</th>
+     			<th>ADDRESS</th>
+     		</tr>
+     	</thead>
+     	<tbody>
+     		<tr>
+     			<td>1</td>
+     			<td>RAJI</td>
+     			<td>INDIA</td>
+     		</tr>
+     		<tr>
+     			<td>2</td>
+     			<td>SAI</td>
+     			<td>INDIA</td>
+     		</tr>
+     		<tr>
+     			<td>3</td>
+     			<td>LUCK</td>
+     			<td>INDIA</td>
+     		</tr>
+     	</tbody>
+     </table>
+     
+</body>
+</html>
